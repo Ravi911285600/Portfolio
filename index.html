@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresher Front-End Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fresher Dev</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>Hello, I'm <span class="accent">Ram Niwas</span></h1>
+            <p>Front-End Developer | HTML | CSS | JavaScript</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a highly motivated fresher front-end developer eager to create engaging and responsive web experiences. I enjoy learning new technologies and building real projects to grow my skills.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>A simple and modern portfolio website to showcase my skills and projects. Built with HTML5, CSS3, and a bit of JavaScript.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>To-Do App</h3>
+                    <p>A responsive to-do list application that lets users add, complete, and delete tasks. Built using vanilla JavaScript.</p>
+                    <a href="todo/todo.html">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Fetches and displays the current weather using an open API. Made with HTML, CSS, and JavaScript (fetch API).</p>
+                    <a href="weather/weather.html" >View Project</a>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6)</li>
+                <li>Bootstrap</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ram Niwas. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
